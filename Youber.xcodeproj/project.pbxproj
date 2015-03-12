@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DCD89CD60B455EEA6820527 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11393B64A2E1882FC9792B9F /* libPods.a */; };
+		724D64941AB209C8008149DF /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724D64931AB209C8008149DF /* SetupViewController.swift */; };
+		8A6C233F1AB2169E00C77F67 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6C233E1AB2169E00C77F67 /* CreateAccountViewController.swift */; };
+		96D49E851AB00C64002512FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D49E841AB00C64002512FE /* AppDelegate.swift */; };
+		96D49E871AB00C64002512FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D49E861AB00C64002512FE /* ViewController.swift */; };
+		96D49E8A1AB00C64002512FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D49E881AB00C64002512FE /* Main.storyboard */; };
+		96D49E8C1AB00C64002512FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D49E8B1AB00C64002512FE /* Images.xcassets */; };
+		96D49E8F1AB00C64002512FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D49E8D1AB00C64002512FE /* LaunchScreen.xib */; };
+		96D49E9B1AB00C64002512FE /* YouberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D49E9A1AB00C64002512FE /* YouberTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96D49E951AB00C64002512FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96D49E771AB00C64002512FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96D49E7E1AB00C64002512FE;
+			remoteInfo = Youber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11393B64A2E1882FC9792B9F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		447A0857275A2BB3D834D4C6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		724D64931AB209C8008149DF /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		8A6C233E1AB2169E00C77F67 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		96D49E7F1AB00C64002512FE /* Youber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Youber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D49E831AB00C64002512FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D49E841AB00C64002512FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96D49E861AB00C64002512FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96D49E891AB00C64002512FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96D49E8B1AB00C64002512FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96D49E8E1AB00C64002512FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96D49E941AB00C64002512FE /* YouberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D49E991AB00C64002512FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D49E9A1AB00C64002512FE /* YouberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouberTests.swift; sourceTree = "<group>"; };
+		E623AC98FE2FDA6F5ACAE86A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96D49E7C1AB00C64002512FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD89CD60B455EEA6820527 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D49E911AB00C64002512FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E22583FD2BE9418ED1FA2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11393B64A2E1882FC9792B9F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96D49E761AB00C64002512FE = {
+			isa = PBXGroup;
+			children = (
+				96D49E811AB00C64002512FE /* Youber */,
+				96D49E971AB00C64002512FE /* YouberTests */,
+				96D49E801AB00C64002512FE /* Products */,
+				F53FBE359DBE4EF9FF537140 /* Pods */,
+				29E22583FD2BE9418ED1FA2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96D49E801AB00C64002512FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96D49E7F1AB00C64002512FE /* Youber.app */,
+				96D49E941AB00C64002512FE /* YouberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96D49E811AB00C64002512FE /* Youber */ = {
+			isa = PBXGroup;
+			children = (
+				96D49E841AB00C64002512FE /* AppDelegate.swift */,
+				96D49E861AB00C64002512FE /* ViewController.swift */,
+				96D49E881AB00C64002512FE /* Main.storyboard */,
+				8A6C233E1AB2169E00C77F67 /* CreateAccountViewController.swift */,
+				96D49E8B1AB00C64002512FE /* Images.xcassets */,
+				96D49E8D1AB00C64002512FE /* LaunchScreen.xib */,
+				96D49E821AB00C64002512FE /* Supporting Files */,
+				724D64931AB209C8008149DF /* SetupViewController.swift */,
+			);
+			path = Youber;
+			sourceTree = "<group>";
+		};
+		96D49E821AB00C64002512FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96D49E831AB00C64002512FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96D49E971AB00C64002512FE /* YouberTests */ = {
+			isa = PBXGroup;
+			children = (
+				96D49E9A1AB00C64002512FE /* YouberTests.swift */,
+				96D49E981AB00C64002512FE /* Supporting Files */,
+			);
+			path = YouberTests;
+			sourceTree = "<group>";
+		};
+		96D49E981AB00C64002512FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96D49E991AB00C64002512FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F53FBE359DBE4EF9FF537140 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				447A0857275A2BB3D834D4C6 /* Pods.debug.xcconfig */,
+				E623AC98FE2FDA6F5ACAE86A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96D49E7E1AB00C64002512FE /* Youber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D49E9E1AB00C64002512FE /* Build configuration list for PBXNativeTarget "Youber" */;
+			buildPhases = (
+				FF7A19C3836D1D45BC79511D /* Check Pods Manifest.lock */,
+				96D49E7B1AB00C64002512FE /* Sources */,
+				96D49E7C1AB00C64002512FE /* Frameworks */,
+				96D49E7D1AB00C64002512FE /* Resources */,
+				8309D2AF5485AB0A14410D5E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Youber;
+			productName = Youber;
+			productReference = 96D49E7F1AB00C64002512FE /* Youber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96D49E931AB00C64002512FE /* YouberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D49EA11AB00C64002512FE /* Build configuration list for PBXNativeTarget "YouberTests" */;
+			buildPhases = (
+				96D49E901AB00C64002512FE /* Sources */,
+				96D49E911AB00C64002512FE /* Frameworks */,
+				96D49E921AB00C64002512FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96D49E961AB00C64002512FE /* PBXTargetDependency */,
+			);
+			name = YouberTests;
+			productName = YouberTests;
+			productReference = 96D49E941AB00C64002512FE /* YouberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96D49E771AB00C64002512FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = vs;
+				TargetAttributes = {
+					96D49E7E1AB00C64002512FE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					96D49E931AB00C64002512FE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 96D49E7E1AB00C64002512FE;
+					};
+				};
+			};
+			buildConfigurationList = 96D49E7A1AB00C64002512FE /* Build configuration list for PBXProject "Youber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96D49E761AB00C64002512FE;
+			productRefGroup = 96D49E801AB00C64002512FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96D49E7E1AB00C64002512FE /* Youber */,
+				96D49E931AB00C64002512FE /* YouberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96D49E7D1AB00C64002512FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D49E8A1AB00C64002512FE /* Main.storyboard in Resources */,
+				96D49E8F1AB00C64002512FE /* LaunchScreen.xib in Resources */,
+				96D49E8C1AB00C64002512FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D49E921AB00C64002512FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8309D2AF5485AB0A14410D5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7A19C3836D1D45BC79511D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96D49E7B1AB00C64002512FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6C233F1AB2169E00C77F67 /* CreateAccountViewController.swift in Sources */,
+				96D49E871AB00C64002512FE /* ViewController.swift in Sources */,
+				724D64941AB209C8008149DF /* SetupViewController.swift in Sources */,
+				96D49E851AB00C64002512FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D49E901AB00C64002512FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D49E9B1AB00C64002512FE /* YouberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96D49E961AB00C64002512FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96D49E7E1AB00C64002512FE /* Youber */;
+			targetProxy = 96D49E951AB00C64002512FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96D49E881AB00C64002512FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D49E891AB00C64002512FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96D49E8D1AB00C64002512FE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96D49E8E1AB00C64002512FE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96D49E9C1AB00C64002512FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96D49E9D1AB00C64002512FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96D49E9F1AB00C64002512FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447A0857275A2BB3D834D4C6 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Youber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96D49EA01AB00C64002512FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E623AC98FE2FDA6F5ACAE86A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Youber/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96D49EA21AB00C64002512FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YouberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Youber.app/Youber";
+			};
+			name = Debug;
+		};
+		96D49EA31AB00C64002512FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YouberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Youber.app/Youber";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96D49E7A1AB00C64002512FE /* Build configuration list for PBXProject "Youber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D49E9C1AB00C64002512FE /* Debug */,
+				96D49E9D1AB00C64002512FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D49E9E1AB00C64002512FE /* Build configuration list for PBXNativeTarget "Youber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D49E9F1AB00C64002512FE /* Debug */,
+				96D49EA01AB00C64002512FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D49EA11AB00C64002512FE /* Build configuration list for PBXNativeTarget "YouberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96D49EA21AB00C64002512FE /* Debug */,
+				96D49EA31AB00C64002512FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96D49E771AB00C64002512FE /* Project object */;
+}

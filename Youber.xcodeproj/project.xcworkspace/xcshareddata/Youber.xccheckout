@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>21EE921C-BC51-45EF-847C-20D3F730D28D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Youber</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6730B4290553DE39D80CF01EFF059BE6E87ACE65</key>
+		<string>git.corp.yahoo.com:shaines1/youberhack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Youber.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6730B4290553DE39D80CF01EFF059BE6E87ACE65</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git.corp.yahoo.com:shaines1/youberhack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6730B4290553DE39D80CF01EFF059BE6E87ACE65</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6730B4290553DE39D80CF01EFF059BE6E87ACE65</string>
+			<key>IDESourceControlWCCName</key>
+			<string>youberhack</string>
+		</dict>
+	</array>
+</dict>
+</plist>
